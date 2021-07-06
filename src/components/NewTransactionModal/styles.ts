@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-import { darken } from 'polished';
+import { darken, transparentize } from 'polished'; // dentro do polished temos diversos meios de estilizar cores de maneira única dentro de determinado local.
 
 export const Container = styled.form`
     h2{
@@ -58,34 +58,52 @@ export const TransactionTypeContainer = styled.div`
     display: grid;
     grid-template-columns:  1fr 1fr;
     gap: 0.5rem;
+`;
 
-    button{
-        height: 4rem;
-        border: 1px solid #d7d7d7;
-        border-radius: 0.25rem;
+interface RadioBoxProps{ //Isso é uma interface criada para passar o 'isActive' para dentro do meu RadioBox
+    isActive: boolean; //boolean = true or false
+    activeColor: 'green' | 'red';
+}
 
-        background: transparent;
+const colors = {
+    green: '#33cc95',
+    red: '#e52e4d'
+};
 
-        display: flex;
-        align-items: center;
-        justify-content: center;
+export const RadioBox = styled.button<RadioBoxProps>` //Descobrimos que podemos passar o que foi definido na Interface dentro do button
+    height: 4rem;
+    border: 1px solid #d7d7d7;
+    border-radius: 0.25rem;
 
-        transition: border-color 0.2s;
+    background: ${(props) => props.isActive 
+    ? transparentize(0.9, colors[props.activeColor]) //Nessa linha nós estamos definindo quais serão as cores que iremos usar após a validação do IsActive
+    : 'transparent'};
 
-        &:hover {
-            border-color: ${darken(0.1, '#d7d7d7')};
-        }
+    /* background: ${(props) => props.isActive ? '#000' : 'transparent'}; 
+    A linha acima é uma funcionalidade EXTREMAMENTE importante do StyledComponents, nós podemos receber props do elemento que está definido ou seja se
+    se tivermos um button definido depois do styled (EX: export const Nomedocomponente = styled.button) recebemos as propriedades desse elemento para
+    conseguir trabalhar com  ele dentro do styled components */
 
-        img{
-        width: 20px;
-        height: 20px;
-        }
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
-        span{
-            display: inline-block;
-            margin-left: 1rem;
-            font-size: 1rem;
-            color: var(--text-title);
-        }
+    transition: border-color 0.2s;
+
+    &:hover {
+        border-color: ${darken(0.1, '#d7d7d7')};
     }
+
+    img{
+    width: 20px;
+    height: 20px;
+    }
+
+    span{
+        display: inline-block;
+        margin-left: 1rem;
+        font-size: 1rem;
+        color: var(--text-title);
+    }
+
 `;
