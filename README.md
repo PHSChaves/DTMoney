@@ -7,25 +7,28 @@ DTMoney - Projeto Chapter II - Ignite
 </h4>
 
 <p align="center">
-  <img alt="Desenvolvido por Paulo Henrique" src="https://img.shields.io/badge/Desenvolvido%20por-Paulo Henrique-%237519C1?style=for-the-badge"><br/>
+  <img alt="Desenvolvido por Paulo Henrique" src="https://img.shields.io/badge/Desenvolvido%20por-Paulo Henrique-%237519C1?style=for-the-badge">
+  <img alt="licença" src="https://img.shields.io/bower/l/mi?label=Licen%C3%A7a&style=for-the-badge"/>
 </p>
 
 <hr>
 
-## Tecnologias Utilizadas
+### 🛠 Tecnologias Utilizadas
 
-- [X] [React.Js](https://pt-br.reactjs.org/)
-- [X] [TypeScript](https://www.typescriptlang.org/) 
-- [X] [MirageJS](https://miragejs.com/)
-- [X] [Axios](https://github.com/axios/axios)
-- [X] [Polished](https://polished.js.org/docs/)
-- [X] [Styled Components](https://styled-components.com/)
-- [X] [React Modal](https://www.npmjs.com/package/react-modal)
+:arrow_forward: [React.Js](https://pt-br.reactjs.org/) <br>
+:arrow_forward: [TypeScript](https://www.typescriptlang.org/) <br>
+:arrow_forward: [MirageJS](https://miragejs.com/)<br>
+:arrow_forward: [Axios](https://github.com/axios/axios)<br>
+:arrow_forward: [Polished](https://polished.js.org/docs/)<br>
+:arrow_forward: [Styled Components](https://styled-components.com/)<br>
+:arrow_forward: [React Modal](https://www.npmjs.com/package/react-modal)
 
 
-## Sobre o projeto
+### :rotating_light: Sobre o projeto
 
-### Pré-requisitos
+<p> Projeto desenvolvido de acordo com as aulas ministradas no curso Ignite da RocketSeat. Todos os arquivos contam com minhas anotações que englobam meus entendimentos gerais sobre as explicações e também métodos para facilitar a absorção do conteúdo. <p/>
+
+### :checkered_flag: Pré-requisitos
 
 Antes de começar, você vai precisar ter instalado em sua máquina a seguinte ferramenta:
 [Git](https://git-scm.com).<br>
@@ -48,12 +51,12 @@ $ npm start
 
 # O servidor inciará na porta:3000 - acesse <http://localhost:3000>
 ```
+<hr>
 
 ### Autor
----
 
 <a href="https://github.com/PHSChaves">
- <img style="border-radius: 50%;" src="https://scontent.fgru6-1.fna.fbcdn.net/v/t1.6435-9/157599609_451316492729739_6991107159592866136_n.jpg?_nc_cat=107&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=cqVfmICWNhsAX96ASMP&_nc_ht=scontent.fgru6-1.fna&oh=01f7d479cb4704cfcc7c21b874568e6b&oe=60E9C332" width="100px;" alt=""/>
+ <img style="border-radius: 100%;" src="https://scontent.fgru6-1.fna.fbcdn.net/v/t1.6435-9/157599609_451316492729739_6991107159592866136_n.jpg?_nc_cat=107&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=cqVfmICWNhsAX96ASMP&_nc_ht=scontent.fgru6-1.fna&oh=01f7d479cb4704cfcc7c21b874568e6b&oe=60E9C332" width="100px;" alt=""/>
  <br />
  <sub><b>Paulo Henrique 🚀</b></sub></a>
 
