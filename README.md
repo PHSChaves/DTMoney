@@ -1,10 +1,6 @@
 <h1 align="center">
-DTMoney - Projeto Chapter II - Ignite
+	🚧 DtMoney - Projeto Chapter II - Ignite 🚀 Em construção... 🚧
 </h1>
-
-<h4 align="center"> 
-	🚧 DtMoney 🚀 Em construção... 🚧
-</h4>
 
 <p align="center">
   <img alt="Desenvolvido por Paulo Henrique" src="https://img.shields.io/badge/Desenvolvido%20por-Paulo Henrique-%237519C1?style=for-the-badge">
