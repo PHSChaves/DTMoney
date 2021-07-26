@@ -1,5 +1,5 @@
 <h1 align="center">
-	🚧 DtMoney - Projeto Chapter II - Ignite 🚀 Em construção... 🚧
+DtMoney - Projeto Chapter II - Ignite 🚀
 </h1>
 
 <p align="center">
